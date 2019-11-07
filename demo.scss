@@ -1,0 +1,27 @@
+#grid-header {
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+}
+
+#grid-header-menu {
+
+  border: 1px solid #e6e6e6;
+  border-radius: 2px;
+  position: absolute;
+  background-color: #fff;
+
+  & > .layui-form-checkbox {
+    display: block;
+    margin: 10px 0 10px 10px;
+  }
+
+  & > .layui-form-checkbox[lay-skin=primary]:hover i {
+    border-color: rgb(210, 210, 210);
+  }
+
+  & > .layui-form-checkbox[lay-skin=primary] i:hover {
+    border-color: #5FB878;
+  }
+}
+
